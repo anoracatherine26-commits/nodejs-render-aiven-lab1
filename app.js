@@ -4,11 +4,11 @@ const mysql = require("mysql2");
 const app = express();
 
 const db = mysql.createConnection({
-  host: "YOUR_HOST",
-  user: "YOUR_USERNAME",
-  password: "YOUR_PASSWORD",
+  host: "nodejs-mysql-lab-anoracatherine26-5ffe.g.aivencloud.com",
+  user: "avnadmin",
+  password: "AVNS_ypBVZlXcXYxiTCekf--",
   database: "defaultdb",
-  port: "YOUR_PORT"
+  port: "28066"
 });
 
 app.get("/", (req, res) => {
