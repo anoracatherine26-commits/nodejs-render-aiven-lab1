@@ -8,7 +8,7 @@ const db = mysql.createConnection({
   user: "avnadmin",
   password: "AVNS_ypBVZlXcXYxiTCekf--",
   database: "defaultdb",
-  port: "28066"
+  port: "28066",
 });
 
 app.get("/", (req, res) => {
